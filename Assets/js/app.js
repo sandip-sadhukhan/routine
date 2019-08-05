@@ -60,13 +60,13 @@ function checkHoliday(weekday){
 
 //show routine
 function showRoutine(weekday,msg,externalday){
+    document.querySelector('.heading').textContent=msg;
     if(checkHoliday(weekday)){
         let h1=document.createElement('h1');
         h1.className="text-center text-danger";
         h1.appendChild(document.createTextNode(externalday+' is Holiday! Enjoy...'));
         document.querySelector('.msg').appendChild(h1);
     } else{
-        document.querySelector('.heading').textContent=msg;
         for(let i=1;i<=9;i++){
             let tr=document.createElement('tr');
             let periodtd=tr.appendChild(document.createElement('td'));
