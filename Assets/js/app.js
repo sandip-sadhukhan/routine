@@ -30,7 +30,7 @@ if(time>=0.00 && time<=9.29){
     showRoutine(weekday,msg,externalday);
     if(weekday!=0 && weekday!==1){
         if(time>=10.20){tableBody.firstElementChild.remove();}
-        if(time>=11.20){tableBody.firstElementChild.remove();}
+        if(time>=11.10){tableBody.firstElementChild.remove();}
         if(time>=12.00){tableBody.firstElementChild.remove();}
         if(time>=12.50){tableBody.firstElementChild.remove();}
         if(time>=13.40){tableBody.firstElementChild.remove();}
