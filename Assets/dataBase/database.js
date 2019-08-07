@@ -19,7 +19,7 @@ class Day {
                 break;
                 case 7: result='Economics For Engineers<br>(AD)'
                 break;
-                case 8: result='Aplitue<br>(NF)'
+                case 8: result='Library'
                 break;
                 case 9: result='Library'
                 break;
@@ -33,7 +33,7 @@ class Day {
                 break;
                 case 3: result='Computer Organization<br>(CBD)'
                 break;
-                case 4: result='Moocs<br>(NF)'
+                case 4: result='Library'
                 break;
                 case 5: result='Lunch Time'
                 break;
@@ -87,7 +87,7 @@ class Day {
                 break;
                 case 8: result='Aplitue<br>(NF)'
                 break;
-                case 9: result='Library'
+                case 9: result='Moocs<br>(NF)'
                 break;
                 default: result='Somthing is Wrong';
             }
