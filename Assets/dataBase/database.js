@@ -5,111 +5,111 @@ class Day {
         let result;
         if(weekday==2){
             switch(period){
-                case 1: result='Analog & Digital Electronics<br>(SOS)'
+                case 1: result='Biology<br>NF(CH)';
                 break;
-                case 2: result='Economics For Engineers<br>(AD)'
+                case 2: result='Design and Analysis of Algorithms <br>JP(CS)';
                 break;
-                case 3: result='Data Structure & Algorithm<br>(SC)'
+                case 3: result='Discrete Mathematics <br>SM(M)'
                 break;
-                case 4: result='Computer Organization<br>(CBD)'
+                case 4: result='Computer Architecture MK(CS) '
                 break;
-                case 5: result='Lunch'
+                case 5: result='Lunch Time'
                 break;
-                case 6: result='Mathematics<br>(AG)'
+                case 6: result='Library'
                 break;
-                case 7: result='Economics For Engineers<br>(AD)'
+                case 7: result='Remidial class'
                 break;
-                case 8: result='Library'
+                case 8: result='Remidial class'
                 break;
-                case 9: result='Library'
+                case 9: result='Remidial class'
                 break;
                 default: result='Somthing is Wrong';
             }
         } else if(weekday==3){
             switch(period){
-                case 1: result='Economics For Engineers<br>(AD)'
+                case 1: result='Computer Architecture <br>MK(CS)'
                 break;
-                case 2: result='Data Structure & Algorithm<br>(SC)'
+                case 2: result='Biology <br>NF(CH)'
                 break;
-                case 3: result='Computer Organization<br>(CBD)'
+                case 3: result='Discrete Mathematics <br>SM(M)'
                 break;
-                case 4: result='Library'
+                case 4: result='Formal  Language & Automata  Theory <br>SB(CS)'
                 break;
                 case 5: result='Lunch Time'
                 break;
-                case 6: result='IT Workshop<br>(JP, AS, NF)'
+                case 6: result='Library'
                 break;
-                case 7: result='IT Workshop<br>(JP, AS, NF)'
+                case 7: result='Remidial class'
                 break;
-                case 8: result='IT Workshop<br>(JP, AS, NF)'
+                case 8: result='Remidial class'
                 break;
-                case 9: result='IT Workshop<br>(JP, AS, NF)'
+                case 9: result='Remidial class'
                 break;
                 default: result='Somthing is Wrong';
             }
         } else if(weekday==4){
             switch(period){
-                case 1: result='Data Structure & Algorithm<br>(SC)'
+                case 1: result='Design & Analysis Algorithm Lab <br>JP(CS) + SB(CS) + NND(CS)'
                 break;
-                case 2: result='Computer Organization<br>(CBD)'
+                case 2: result='Design & Analysis Algorithm Lab <br>JP(CS) + SB(CS) + NND(CS)'
                 break;
-                case 3: result='Analog & Digital Electronics<br>(SOS)'
+                case 3: result='Design & Analysis Algorithm Lab <br>JP(CS) + SB(CS) + NND(CS)'
                 break;
-                case 4: result='Moocs<br>(NF)'
+                case 4: result='Design & Analysis Algorithm Lab <br>JP(CS) + SB(CS) + NND(CS)'
                 break;
-                case 5: result='Lunch'
+                case 5: result='Lunch Time'
                 break;
-                case 6: result='Data Structure & Algorithm (Lab) <br>(SC, PM, NF)'
+                case 6: result='Library'
                 break;
-                case 7: result='Data Structure & Algorithm (Lab) <br>(SC, PM, NF)'
+                case 7: result='Remidial class'
                 break;
-                case 8: result='Data Structure & Algorithm (Lab) <br>(SC, PM, NF)'
+                case 8: result='Remidial class'
                 break;
-                case 9: result='Data Structure & Algorithm (Lab) <br>(SC, PM, NF)'
+                case 9: result='Remidial class'
                 break;
                 default: result='Somthing is Wrong';
             }
         } else if(weekday==5){
             switch(period){
-                case 1: result='Analog & Digital Electronics (Lab) <br>(TB, MKS, MK, SOS)'
+                case 1: result='Biology <br>NF(CH)'
                 break;
-                case 2: result='Analog & Digital Electronics (Lab) <br>(TB, MKS, MK, SOS)'
+                case 2: result='Environmental Sciences <br>PT(CH) '
                 break;
-                case 3: result='Analog & Digital Electronics (Lab) <br>(TB, MKS, MK, SOS)'
+                case 3: result='Discrete Mathematics <br>SM(M)'
                 break;
-                case 4: result='Analog & Digital Electronics (Lab) <br>(TB, MKS, MK, SOS)'
+                case 4: result='Computer Architecture <br>MK(CS)'
                 break;
-                case 5: result='Lunch'
+                case 5: result='Lunch Time'
                 break;
-                case 6: result='Mathematics<br>(AG)'
+                case 6: result='Computer Architecture Lab <br>MK(CS) + SKB(CS) + MD(CS)'
                 break;
-                case 7: result='Computer Organization (T)<br>(CBD)'
+                case 7: result='Computer Architecture Lab <br>MK(CS) + SKB(CS) + MD(CS)'
                 break;
-                case 8: result='Aplitue<br>(NF)'
+                case 8: result='Computer Architecture Lab <br>MK(CS) + SKB(CS) + MD(CS)'
                 break;
-                case 9: result='Moocs<br>(NF)'
+                case 9: result='Computer Architecture Lab <br>MK(CS) + SKB(CS) + MD(CS)'
                 break;
                 default: result='Somthing is Wrong';
             }
         } else if(weekday==6){
             switch(period){
-                case 1: result='Economics For Engineers<br>(AD)'
+                case 1: result='Design and Analysis of Algorithms <br>JP(CS)'
                 break;
-                case 2: result='Data Structure & Algorithm<br>(SC)'
+                case 2: result='Design and Analysis of Algorithms <br>JP(CS)'
                 break;
-                case 3: result='Analog & Digital Electronics<br>(SOS)'
+                case 3: result='Discrete Mathematics <br>SM(M)'
                 break;
-                case 4: result='Mathematics<br>(AG)'
+                case 4: result='Library'
                 break;
-                case 5: result='Lunch'
+                case 5: result='Lunch Time'
                 break;
-                case 6: result='Computer Organization (Lab)<br>(SG, SOB)'
+                case 6: result='Library'
                 break;
-                case 7: result='Computer Organization (Lab)<br>(SG, SOB)'
+                case 7: result='Formal  Language & Automata  Theory <br>SB(CS)'
                 break;
-                case 8: result='Computer Organization (Lab)<br>(SG, SOB)'
+                case 8: result='Formal  Language & Automata  Theory <br>SB(CS)'
                 break;
-                case 9: result='Computer Organization (Lab)<br>(SG, SOB)'
+                case 9: result='Library'
                 break;
                 default: result='Somthing is Wrong';
             }
