@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden  ;
+}
+
 .heading{
     font-size: 25px;
 }
