@@ -4,112 +4,117 @@ class Day {
     getSubject(weekday,period){
         let result;
         if(weekday==2){
+            // TuesDay
             switch(period){
-                case 1: result='Biology<br>NF(CH)';
+                case 1: result='Complier Design<br>(MD)';
                 break;
-                case 2: result='Design and Analysis of Algorithms <br>JP(CS)';
+                case 2: result='Operating Systems<br>(SS)';
                 break;
-                case 3: result='Discrete Mathematics <br>SM(M)'
+                case 3: result='Object Oriented Programming<br>(JP)'
                 break;
-                case 4: result='Computer Architecture MK(CS) '
+                case 4: result='Artificial Intelligence<br>(PKP)'
                 break;
                 case 5: result='Lunch Time'
                 break;
-                case 6: result='Library'
+                case 6: result='Operating System Lab<br>(SS, VKD)'
                 break;
-                case 7: result='Remidial class'
+                case 7: result='Operating System Lab<br>(SS, VKD)'
                 break;
-                case 8: result='Remidial class'
+                case 8: result='Operating System Lab<br>(SS, VKD)'
                 break;
-                case 9: result='Remidial class'
+                case 9: result='Operating System Lab<br>(SS, VKD)'
                 break;
                 default: result='Somthing is Wrong';
             }
         } else if(weekday==3){
+            // Wednesday
             switch(period){
-                case 1: result='Computer Architecture <br>MK(CS)'
+                case 1: result='Software Engineering<br>(SAR)'
                 break;
-                case 2: result='Biology <br>NF(CH)'
+                case 2: result='Object Oriented Programming<br>(JP)'
                 break;
-                case 3: result='Discrete Mathematics <br>SM(M)'
+                case 3: result='Operating Systems<br>(SS)'
                 break;
-                case 4: result='Formal  Language & Automata  Theory <br>SB(CS)'
+                case 4: result='Complier Design<br>(MD)'
                 break;
                 case 5: result='Lunch Time'
                 break;
-                case 6: result='Library'
+                case 6: result='Constitution of India<br>(MR)'
                 break;
-                case 7: result='Remidial class'
+                case 7: result='Complier Design<br>T - (MD)'
                 break;
-                case 8: result='Remidial class'
+                case 8: result='Industrial Management<br>(NF)'
                 break;
-                case 9: result='Remidial class'
+                case 9: result='Library'
                 break;
                 default: result='Somthing is Wrong';
             }
         } else if(weekday==4){
+            // Thrusday
             switch(period){
-                case 1: result='Design & Analysis Algorithm Lab <br>JP(CS) + SB(CS) + NND(CS)'
+                case 1: result='Software Engineering Lab<br>(SAR, SB)'
                 break;
-                case 2: result='Design & Analysis Algorithm Lab <br>JP(CS) + SB(CS) + NND(CS)'
+                case 2: result='Software Engineering Lab<br>(SAR, SB)'
                 break;
-                case 3: result='Design & Analysis Algorithm Lab <br>JP(CS) + SB(CS) + NND(CS)'
+                case 3: result='Software Engineering Lab<br>(SAR, SB)'
                 break;
-                case 4: result='Design & Analysis Algorithm Lab <br>JP(CS) + SB(CS) + NND(CS)'
+                case 4: result='Software Engineering Lab<br>(SAR, SB)'
                 break;
                 case 5: result='Lunch Time'
                 break;
-                case 6: result='Library'
+                case 6: result='Artificial Intelligence<br>(PKP)'
                 break;
-                case 7: result='Remidial class'
+                case 7: result='Industrial Management<br>(NF)'
                 break;
-                case 8: result='Remidial class'
+                case 8: result='Software Engineering<br>(SAR)'
                 break;
-                case 9: result='Remidial class'
+                case 9: result='Software Engineering<br>T - (SAR)'
                 break;
                 default: result='Somthing is Wrong';
             }
         } else if(weekday==5){
+            // Friday
             switch(period){
-                case 1: result='Biology <br>NF(CH)'
+                case 1: result='Software Engineering<br>(SAR)'
                 break;
-                case 2: result='Environmental Sciences <br>PT(CH) '
+                case 2: result='Complier Design<br>(MD)'
                 break;
-                case 3: result='Discrete Mathematics <br>SM(M)'
+                case 3: result='Operating Systems<br>(SS)'
                 break;
-                case 4: result='Computer Architecture <br>MK(CS)'
+                case 4: result='Industrial Management<br>(NF)'
                 break;
                 case 5: result='Lunch Time'
                 break;
-                case 6: result='Computer Architecture Lab <br>MK(CS) + SKB(CS) + MD(CS)'
+                case 6: result='Object Oriented Programming Lab<br>(JP, SKB)'
                 break;
-                case 7: result='Computer Architecture Lab <br>MK(CS) + SKB(CS) + MD(CS)'
+                case 7: result='Object Oriented Programming Lab<br>(JP, SKB)'
                 break;
-                case 8: result='Computer Architecture Lab <br>MK(CS) + SKB(CS) + MD(CS)'
+                case 8: result='Object Oriented Programming Lab<br>(JP, SKB)'
                 break;
-                case 9: result='Computer Architecture Lab <br>MK(CS) + SKB(CS) + MD(CS)'
+                case 9: result='Object Oriented Programming Lab<br>(JP, SKB)'
                 break;
                 default: result='Somthing is Wrong';
             }
         } else if(weekday==6){
+            // Saturday
             switch(period){
-                case 1: result='Design and Analysis of Algorithms <br>JP(CS)'
+                case 1: result='Object Oriented Programming<br>(JP)'
                 break;
-                case 2: result='Design and Analysis of Algorithms <br>JP(CS)'
+                case 2: result='Constitution of India<br>(MR)'
                 break;
-                case 3: result='Discrete Mathematics <br>SM(M)'
+                case 3: result='Operating Systems<br>T - (SS)'
                 break;
-                case 4: result='Library'
+                case 4: result='Artificial Intelligence<br>(PKP)'
                 break;
                 case 5: result='Lunch Time'
                 break;
-                case 6: result='Library'
+                case 6: result='Constitution of India<br>(MR)'
                 break;
-                case 7: result='Formal  Language & Automata  Theory <br>SB(CS)'
+                case 7: result='Object Oriented Programming<br>T - (JP)'
                 break;
-                case 8: result='Formal  Language & Automata  Theory <br>SB(CS)'
+                case 8: result='REMEDIAL CLASS'
                 break;
-                case 9: result='Library'
+                case 9: result='REMEDIAL CLASS'
                 break;
                 default: result='Somthing is Wrong';
             }

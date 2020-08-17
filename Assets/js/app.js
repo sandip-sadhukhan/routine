@@ -62,10 +62,10 @@ function checkHoliday(weekday){
 function showRoutine(weekday,msg,externalday){
     document.querySelector('.heading').textContent=msg;
     if(checkHoliday(weekday)){
-        let h1=document.createElement('h1');
-        h1.className="text-center text-danger";
-        h1.appendChild(document.createTextNode(externalday+' is Holiday! Enjoy...'));
-        document.querySelector('.msg').appendChild(h1);
+        let p=document.createElement('p');
+        p.className=" text-center display-4 alert alert-success";
+        p.appendChild(document.createTextNode(externalday+' is Holiday! Enjoy...'));
+        document.querySelector('.msg').appendChild(p);
     } else{
         for(let i=1;i<=9;i++){
             let tr=document.createElement('tr');
