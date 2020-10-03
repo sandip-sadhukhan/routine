@@ -1,5 +1,5 @@
-# routine
-## what is for
+# Routine
+## What is for?
 This is a dynamic routine developed by sandip sadhukhan.
 ## Technology used
 [x] html
