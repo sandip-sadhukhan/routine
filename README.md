@@ -2,8 +2,9 @@
 ## What is for?
 This is a dynamic routine developed by sandip sadhukhan.
 ## Technology used
-[x] html
-[x] css
-[x] js
-[ ] php
-[ ] mysql
+- HTML
+- CSS
+- Bootstrap
+- Javascript
+
+### 6th Sem is Currently Active
