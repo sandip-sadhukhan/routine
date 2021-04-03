@@ -6,115 +6,115 @@ class Day {
         if(weekday==2){
             // TuesDay
             switch(period){
-                case 1: result='Complier Design<br>(MD)';
+                case 1: result='Database Management Systems<br>(RPC)';
                 break;
-                case 2: result='Operating Systems<br>(SS)';
+                case 2: result='Research Methodology<br>(TB)';
                 break;
-                case 3: result='Object Oriented Programming<br>(JP)'
+                case 3: result='Numerical Methods<br>(BR)';
                 break;
-                case 4: result='Artificial Intelligence<br>(PKP)'
+                case 4: result='Data Mining<br>(HB)';
                 break;
-                case 5: result='Lunch Time'
+                case 5: result='Lunch Time';
                 break;
-                case 6: result='Operating System Lab<br>(SS, VKD)'
+                case 6: result='Numerical Methods (T)<br>(BR)';
                 break;
-                case 7: result='Operating System Lab<br>(SS, VKD)'
+                case 7: result='Database Management Systems (T)<br>(RPC)';
                 break;
-                case 8: result='Operating System Lab<br>(SS, VKD)'
+                case 8: result='REMEDIAL CLASS';
                 break;
-                case 9: result='Operating System Lab<br>(SS, VKD)'
+                case 9: result='REMEDIAL CLASS';
                 break;
                 default: result='Somthing is Wrong';
             }
         } else if(weekday==3){
             // Wednesday
             switch(period){
-                case 1: result='Software Engineering<br>(SAR)'
+                case 1: result='Database Management Systems<br>(RPC)'
                 break;
-                case 2: result='Object Oriented Programming<br>(JP)'
+                case 2: result='Research Methodology<br>(TB)'
                 break;
-                case 3: result='Operating Systems<br>(SS)'
+                case 3: result='Data Mining<br>(HB)'
                 break;
-                case 4: result='Complier Design<br>(MD)'
+                case 4: result='Image Processing<br>(DS)'
                 break;
                 case 5: result='Lunch Time'
                 break;
-                case 6: result='Constitution of India<br>(MR)'
+                case 6: result='Computer Networks Lab<br>(VKS, PKP)'
                 break;
-                case 7: result='Complier Design<br>T - (MD)'
+                case 7: result='Computer Networks Lab<br>(VKS, PKP)'
                 break;
-                case 8: result='Industrial Management<br>(NF)'
+                case 8: result='Computer Networks Lab<br>(VKS, PKP)'
                 break;
-                case 9: result='Library'
+                case 9: result='Computer Networks Lab<br>(VKS, PKP)'
                 break;
                 default: result='Somthing is Wrong';
             }
         } else if(weekday==4){
-            // Thrusday
+            // Thursday
             switch(period){
-                case 1: result='Software Engineering Lab<br>(SAR, SB)'
+                case 1: result='Database Management Systems<br>(RPC)'
                 break;
-                case 2: result='Software Engineering Lab<br>(SAR, SB)'
+                case 2: result='Computer Networks<br>(VKS)'
                 break;
-                case 3: result='Software Engineering Lab<br>(SAR, SB)'
+                case 3: result='Data Mining<br>(HB)'
                 break;
-                case 4: result='Software Engineering Lab<br>(SAR, SB)'
+                case 4: result='Image Processing<br>(DS)'
                 break;
                 case 5: result='Lunch Time'
                 break;
-                case 6: result='Artificial Intelligence<br>(PKP)'
+                case 6: result='Image Processing (T)<br>(DS)'
                 break;
-                case 7: result='Industrial Management<br>(NF)'
+                case 7: result='Library'
                 break;
-                case 8: result='Software Engineering<br>(SAR)'
+                case 8: result='REMEDIAL CLASS'
                 break;
-                case 9: result='Software Engineering<br>T - (SAR)'
+                case 9: result='REMEDIAL CLASS'
                 break;
                 default: result='Somthing is Wrong';
             }
         } else if(weekday==5){
             // Friday
             switch(period){
-                case 1: result='Software Engineering<br>(SAR)'
+                case 1: result='Computer Networks<br>(VKS)'
                 break;
-                case 2: result='Complier Design<br>(MD)'
+                case 2: result='Image Processing<br>(DS)'
                 break;
-                case 3: result='Operating Systems<br>(SS)'
+                case 3: result='Numerical Methods<br>(BR)'
                 break;
-                case 4: result='Industrial Management<br>(NF)'
+                case 4: result='MOOCS<br>(RKN)'
                 break;
                 case 5: result='Lunch Time'
                 break;
-                case 6: result='Object Oriented Programming Lab<br>(JP, SKB)'
+                case 6: result='Database Management System Lab<br>(RPC, AC)'
                 break;
-                case 7: result='Object Oriented Programming Lab<br>(JP, SKB)'
+                case 7: result='Database Management System Lab<br>(RPC, AC)'
                 break;
-                case 8: result='Object Oriented Programming Lab<br>(JP, SKB)'
+                case 8: result='Database Management System Lab<br>(RPC, AC)'
                 break;
-                case 9: result='Object Oriented Programming Lab<br>(JP, SKB)'
+                case 9: result='Database Management System Lab<br>(RPC, AC)'
                 break;
                 default: result='Somthing is Wrong';
             }
         } else if(weekday==6){
             // Saturday
             switch(period){
-                case 1: result='Object Oriented Programming<br>(JP)'
+                case 1: result='Research Methodology<br>(TB)'
                 break;
-                case 2: result='Constitution of India<br>(MR)'
+                case 2: result='Computer Networks<br>(VKS)'
                 break;
-                case 3: result='Operating Systems<br>T - (SS)'
+                case 3: result='Numerical Methods<br>(BR)'
                 break;
-                case 4: result='Artificial Intelligence<br>(PKP)'
+                case 4: result='Computer Networks (T)<br>(VKS)'
                 break;
                 case 5: result='Lunch Time'
                 break;
-                case 6: result='Constitution of India<br>(MR)'
+                case 6: result='Data Mining (T)<br>(HB)'
                 break;
-                case 7: result='Object Oriented Programming<br>T - (JP)'
+                case 7: result='Library'
                 break;
-                case 8: result='REMEDIAL CLASS'
+                case 8: result='Library'
                 break;
-                case 9: result='REMEDIAL CLASS'
+                case 9: result='MOOCS<br>(RPC)'
                 break;
                 default: result='Somthing is Wrong';
             }
