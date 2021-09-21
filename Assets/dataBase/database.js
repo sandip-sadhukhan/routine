@@ -6,166 +6,166 @@ class Day {
 			// TuesDay
 			switch (period) {
 				case 1:
-					result = 'Database Management Systems<br>(RPC)'
+					result = 'Machine Learning<br>(DS)'
 					break
 				case 2:
-					result = 'Research Methodology<br>(TB)'
+					result = 'Neural Networks & Deep Learning <br>(VKS)'
 					break
 				case 3:
-					result = 'Numerical Methods<br>(BR)'
+					result = 'Project Management & Entrepreneurship<br>(RPC)'
 					break
 				case 4:
-					result = 'Data Mining<br>(HB)'
+					result = 'Multimedia Technology<br>(AD)'
 					break
 				case 5:
 					result = 'Lunch Time'
 					break
 				case 6:
-					result = 'REMEDIAL CLASS'
+					result = 'Library'
 					break
 				case 7:
-					result = 'REMEDIAL CLASS'
+					result = 'Project 2<br>(TP)'
 					break
 				case 8:
-					result = 'REMEDIAL CLASS'
+					result = 'Project 2<br>(TP)'
 					break
 				case 9:
-					result = 'REMEDIAL CLASS'
+					result = 'Project 2<br>(TP)'
 					break
 				default:
-					result = 'Somthing is Wrong'
+					result = 'Something is Wrong'
 			}
 		} else if (weekday == 3) {
 			// Wednesday
 			switch (period) {
 				case 1:
-					result = 'Database Management Systems<br>(RPC)'
+					result = 'Project Management & Entrepreneurship<br>(RPC)'
 					break
 				case 2:
-					result = 'Research Methodology<br>(TB)'
+					result = 'Neural Networks & Deep Learning <br>(VKS)'
 					break
 				case 3:
-					result = 'Data Mining<br>(HB)'
+					result = 'Multimedia Technology<br>(AD)'
 					break
 				case 4:
-					result = 'Image Processing<br>(DS)'
+					result = 'Machine Learning<br>(DS)'
 					break
 				case 5:
 					result = 'Lunch Time'
 					break
 				case 6:
-					result = 'Computer Networks Lab<br>(VKS, PKP)'
+					result = 'Library'
 					break
 				case 7:
-					result = 'Computer Networks Lab<br>(VKS, PKP)'
+					result = 'Remedial Class'
 					break
 				case 8:
-					result = 'Computer Networks Lab<br>(VKS, PKP)'
+					result = 'Remedial Class'
 					break
 				case 9:
-					result = 'Computer Networks Lab<br>(VKS, PKP)'
+					result = 'Remedial Class'
 					break
 				default:
-					result = 'Somthing is Wrong'
+					result = 'Something is Wrong'
 			}
 		} else if (weekday == 4) {
 			// Thursday
 			switch (period) {
 				case 1:
-					result = 'Database Management Systems<br>(RPC)'
+					result = 'Neural Networks & Deep Learning <br>(VKS)'
 					break
 				case 2:
-					result = 'Computer Networks<br>(VKS)'
+					result = 'Project Management & Entrepreneurship<br>(RPC)'
 					break
 				case 3:
-					result = 'Data Mining<br>(HB)'
+					result = 'Machine Learning<br>(DS)'
 					break
 				case 4:
-					result = 'Image Processing<br>(DS)'
+					result = 'Multimedia Technology<br>(AD)'
 					break
 				case 5:
 					result = 'Lunch Time'
 					break
 				case 6:
-					result = 'REMEDIAL CLASS'
+					result = 'Library'
 					break
 				case 7:
-					result = 'REMEDIAL CLASS'
+					result = 'Project 2<br>(TP)'
 					break
 				case 8:
-					result = 'REMEDIAL CLASS'
+					result = 'Project 2<br>(TP)'
 					break
 				case 9:
-					result = 'REMEDIAL CLASS'
+					result = 'Project 2<br>(TP)'
 					break
 				default:
-					result = 'Somthing is Wrong'
+					result = 'Something is Wrong'
 			}
 		} else if (weekday == 5) {
 			// Friday
 			switch (period) {
 				case 1:
-					result = 'Computer Networks<br>(VKS)'
+					result = 'Project 2<br>(TP)'
 					break
 				case 2:
-					result = 'Image Processing<br>(DS)'
+					result = 'Project 2<br>(TP)'
 					break
 				case 3:
-					result = 'Numerical Methods<br>(BR)'
+					result = 'Project 2<br>(TP)'
 					break
 				case 4:
-					result = 'MOOCS<br>(RKN)'
+					result = 'Remedial Class'
 					break
 				case 5:
 					result = 'Lunch Time'
 					break
 				case 6:
-					result = 'Database Management System Lab<br>(RPC, AC)'
+					result = 'Library'
 					break
 				case 7:
-					result = 'Database Management System Lab<br>(RPC, AC)'
+					result = 'Project 2<br>(TP)'
 					break
 				case 8:
-					result = 'Database Management System Lab<br>(RPC, AC)'
+					result = 'Project 2<br>(TP)'
 					break
 				case 9:
-					result = 'Database Management System Lab<br>(RPC, AC)'
+					result = 'Project 2<br>(TP)'
 					break
 				default:
-					result = 'Somthing is Wrong'
+					result = 'Something is Wrong'
 			}
 		} else if (weekday == 6) {
 			// Saturday
 			switch (period) {
 				case 1:
-					result = 'Research Methodology<br>(TB)'
+					result = 'Project 2<br>(TP)'
 					break
 				case 2:
-					result = 'Computer Networks<br>(VKS)'
+					result = 'Project 2<br>(TP)'
 					break
 				case 3:
-					result = 'Numerical Methods<br>(BR)'
+					result = 'Project 2<br>(TP)'
 					break
 				case 4:
-					result = 'Library'
+					result = 'Remedial Class'
 					break
 				case 5:
 					result = 'Lunch Time'
 					break
 				case 6:
-					result = 'REMEDIAL CLASS'
+					result = 'Library'
 					break
 				case 7:
-					result = 'REMEDIAL CLASS'
+					result = 'Project 2<br>(TP)'
 					break
 				case 8:
-					result = 'REMEDIAL CLASS'
+					result = 'Project 2<br>(TP)'
 					break
 				case 9:
-					result = 'MOOCS<br>(RPC)'
+					result = 'Project 2<br>(TP)'
 					break
 				default:
-					result = 'Somthing is Wrong'
+					result = 'Something is Wrong'
 			}
 		}
 		return result
