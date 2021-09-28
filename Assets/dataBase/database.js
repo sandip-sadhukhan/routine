@@ -6,16 +6,16 @@ class Day {
 			// TuesDay
 			switch (period) {
 				case 1:
-					result = 'Machine Learning<br>(DS)'
-					break
-				case 2:
 					result = 'Neural Networks & Deep Learning <br>(VKS)'
 					break
-				case 3:
+				case 2:
 					result = 'Project Management & Entrepreneurship<br>(RPC)'
 					break
-				case 4:
+				case 3:
 					result = 'Multimedia Technology<br>(AD)'
+					break
+				case 4:
+					result = 'Machine Learning<br>(DS)'
 					break
 				case 5:
 					result = 'Lunch Time'
@@ -57,13 +57,13 @@ class Day {
 					result = 'Library'
 					break
 				case 7:
-					result = 'Remedial Class'
+					result = 'Project 2<br>(TP)'
 					break
 				case 8:
-					result = 'Remedial Class'
+					result = 'Project 2<br>(TP)'
 					break
 				case 9:
-					result = 'Remedial Class'
+					result = 'Project 2<br>(TP)'
 					break
 				default:
 					result = 'Something is Wrong'
@@ -78,10 +78,10 @@ class Day {
 					result = 'Project Management & Entrepreneurship<br>(RPC)'
 					break
 				case 3:
-					result = 'Machine Learning<br>(DS)'
+					result = 'Multimedia Technology<br>(AD)'
 					break
 				case 4:
-					result = 'Multimedia Technology<br>(AD)'
+					result = 'Machine Learning<br>(DS)'
 					break
 				case 5:
 					result = 'Lunch Time'
