@@ -1,13 +1,13 @@
-body{
-    overflow-x: hidden  ;
+body {
+  overflow-x: hidden;
 }
 
-.heading{
-    font-size: 25px;
+.heading {
+  font-size: 25px;
 }
-.maintable{
-    min-height: 400px;
+.maintable {
+  min-height: 400px;
 }
-.footer{
-    border:2px solid black;
+.footer {
+  border: 2px solid black;
 }
